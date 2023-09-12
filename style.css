@@ -1,0 +1,30 @@
+body{
+    /* background-image: url(https://t3.ftcdn.net/jpg/04/12/82/16/360_F_412821610_95RpjzPXCE2LiWGVShIUCGJSktkJQh6P.jpg); */
+    display: flex;
+    justify-content: center;
+align-items: center;
+height: 100vh;
+margin: 0;
+    background-color:darkgreen
+    }
+.container{
+    align-items: center;
+}
+#btn1,#btn2{
+width: 200px;
+height: 50px;
+border: 3px solid rgb(4, 7, 8);
+border-radius: 12px;
+background-color:thistle;
+color: rgb(10, 11, 7);
+font-size: 20px;
+font-family:'Times New Roman', Times, serif;
+font-weight: bold;
+
+}
+#Click{
+    width: 100px;
+    height: 50px;
+    border: 3px sol rgb(4, 7, 8);
+    border-radius: 12px;
+}

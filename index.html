@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Switch Words</title>
+</head>
+<body>
+<div class="container">
+<input id="btn1" type="text">
+<input id="btn2" type="text">
+<button id="Click" onclick="Switch()">Click me</button>
+</div>
+
+
+    <script>
+let input1 = document.getElementById('btn1')
+let input2 = document.getElementById('btn2')
+let knop = document.getElementById('Click')
+
+input1.value = "Hello world!"
+input2.value = "Goodbye!"
+
+let Switch =() => {
+let change = input1.value;
+input1.value = input2.value;
+input2.value = change
+
+
+}
+
+    </script>
+</body>
+</html>
